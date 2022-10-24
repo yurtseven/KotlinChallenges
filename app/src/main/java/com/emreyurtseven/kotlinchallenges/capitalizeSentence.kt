@@ -10,7 +10,6 @@ private fun capitalizeWordList(){
     list.forEach {
         println(it.replaceFirstChar { it.uppercase() })
     }
-
 }
 
 private fun capitalizeSentence(word: String){
@@ -18,5 +17,4 @@ private fun capitalizeSentence(word: String){
     println(word.split(" ").joinToString(" ") {
         it.replaceFirstChar { it.uppercase() }
     })
-
 }
